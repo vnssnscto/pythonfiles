@@ -2,11 +2,11 @@
 
 def outFunc():
     input('Pressione (1) para sair \n')
-    print('Programa finalizado! Até a próxima!')
+    print('Programa finalizado! Obrigada!')
 
 nome = (input('Informe o seu nome: '))
 idade = (int(input('Informe a sua idade: ')))
-cnh = (input('Você já posssui CNH?'))
+cnh = (input('Você já posssui CNH? Digite (s) para Sim e (n) para Não: '))
 
 if idade >= 18 and cnh == 's':
     print('Ok!', nome, 'você já pode dirigir!')
