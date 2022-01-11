@@ -1,6 +1,6 @@
 # Programa pra saber se pode dirigir
 
-def primeiraFunc():
+def outFunc():
     input('Pressione (1) para sair \n')
     print('Programa finalizado! Até a próxima!')
 
@@ -13,4 +13,4 @@ if idade >= 18 and cnh == 's':
 else:
     print('Desculpe,', nome, ', mas você precisa ter mais de 18 anos e possuir uma CNH para dirigir.')
 
-primeiraFunc()
+outFunc()
