@@ -1,0 +1,16 @@
+# Programa pra saber se pode dirigir
+
+def primeiraFunc():
+    input('Pressione (1) para sair \n')
+    print('Programa finalizado! Até a próxima!')
+
+nome = (input('Informe o seu nome: '))
+idade = (int(input('Informe a sua idade: ')))
+cnh = (input('Você já posssui CNH?'))
+
+if idade >= 18 and cnh == 's':
+    print('Ok!', nome, 'você já pode dirigir!')
+else:
+    print('Desculpe,', nome, ', mas você precisa ter mais de 18 anos e possuir uma CNH para dirigir.')
+
+primeiraFunc()
