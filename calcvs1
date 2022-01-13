@@ -1,0 +1,22 @@
+#Calculadora
+
+print('='*10, 'Calculadora', '='*10)
+operador = input('\nInforme a opção desejada: \n(1)Adição \n(2)Subtração \n(3)Multiplicação \n(4)Divisão\n')
+num1 = int(input('Digite o primeiro número: '))
+num2 = int(input('Digite segundo número: '))
+resultado = 0
+
+if operador == '1':
+    resultado = num1 + num2
+    print(num1, '+', num2, ':', resultado)
+elif operador == '2':
+    resultado = num1 - num2
+    print(num1, '-', num2, '=', resultado)
+elif operador == '3':
+    resultado = num1 * num2
+    print(num1, '*', num2, '=', resultado)
+elif operador =='4':
+    resultado = num1 / num2
+    print(num1, '/', num2, '=', resultado)
+else:
+    print('Desculpe, opção inválida!')
