@@ -1,0 +1,51 @@
+#Calculadora
+
+print('='*10, 'Calculadora em Python', '='*10)
+print('\n')
+def soma (a,b):
+    return a + b
+
+def sub (c,d):
+   return c - d
+
+def mult (e,f):
+   return e * f
+
+def div (g,h):
+   return g / h
+
+print('(1)Adição')
+print('(2)Subtração')
+print('(3)Multiplicação')
+print('(4)Divisão')
+print('\n')
+
+op = input('Informe a operação desejada: ')
+print('\n')
+
+n1 = int(input('Digite o primeiro número: '))
+n2 = int(input('Digite o segundo número: '))
+print('\n')
+
+if op == '1':
+   rs1 = soma(n1,n2)
+   print(n1, '+', n2, '=', rs1)
+
+elif op =='2':
+    rs2 = sub(n1,n2)
+    print(n1, '-', n2, '=', rs2)
+    
+elif op == '3':
+    rs3 = mult(n1,n2)
+    print(n1, '*', n2, '=', rs3)
+
+elif op == '4':
+    rs4 = div(n1,n2)
+    print(n1, '/', n2, '=', rs4)
+    
+else:
+    print('A opção informada é inválida!')
+
+print('\n')    
+print('='*43)
+    
