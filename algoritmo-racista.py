@@ -36,10 +36,10 @@ print('\n[1] Você acredita que a cor da pele de grupo étnicos – como african
       'são aspectos puramente físicos sem impactos sociais?')
 p1 = input('>>>>>>>>>> Digite sua resposta:  ')
 
-if p1 == 'nao':
+if p1.lower() == 'nao':
     proxima()
 
-elif p1 == 'sim':
+elif p1.lower() == 'sim':
     resposta = 20
     proxima()
 
@@ -50,10 +50,10 @@ print('\n[2] Quando se encontra diante de uma pessoa negra – geralmente do sex
       'sente medo de sofrer um assalto ou ímpeto de proteger seus pertences?')
 p2 = input('>>>>>>>>>> Digite sua resposta:  ')
 
-if p2 == 'nao':
+if p2.lower() == 'nao':
     proxima()
 
-elif p2 == 'sim':
+elif p2.lower() == 'sim':
     resposta += 30
     proxima()
 
@@ -63,10 +63,10 @@ else:
 print('\n[3] Frequentemente se convence – através de dedução – que negros são simples ou pobres? ')
 p3 = input('>>>>>>>>>> Digite sua resposta:  ')
 
-if p3 == 'nao':
+if p3.lower() == 'nao':
     proxima()
 
-elif p3 == 'sim':
+elif p3.lower() == 'sim':
     resposta += 20
     proxima()
 
@@ -76,10 +76,10 @@ else:
 print('\n[4] Costuma tocar o cabelo crespo sem permissão e não vê problemas no termo “cabelo duro”?')
 p4 = input('>>>>>>>>>> Digite sua resposta:  ')
 
-if p4 == 'nao':
+if p4.lower() == 'nao':
     proxima()
 
-elif p4 == 'sim':
+elif p4.lower() == 'sim':
     resposta += 30
     proxima()
 
@@ -89,10 +89,10 @@ else:
 print('\n[5] Já fez ou riu de piadas de cunho racista?')
 p5 = input('>>>>>>>>>> Digite sua resposta:  ')
 
-if p5 == 'nao':
+if p5.lower() == 'nao':
     proxima()
 
-elif p5 == 'sim':
+elif p5.lower() == 'sim':
     resposta += 50
     proxima()
 
@@ -103,10 +103,10 @@ print('\n[6] Acredita que negros devem sempre ser subservientes, do contrário, 
       'acha que são agressivos ou arrogantes?')
 p6 = input('>>>>>>>>>> Digite sua resposta:  ')
 
-if p6 == 'nao':
+if p6.lower() == 'nao':
     proxima()
 
-elif p6 == 'sim':
+elif p6.lower() == 'sim':
     resposta += 30
     proxima()
 
@@ -116,10 +116,10 @@ else:
 print('\n[7] Jamais cogitou a possibilidade de manter um relacionamento afetivo com uma pessoa negra?')
 p7 = input('>>>>>>>>>> Digite sua resposta:  ')
 
-if p7 == 'nao':
+if p7.lower() == 'nao':
     proxima()
 
-elif p7 == 'sim':
+elif p7.lower() == 'sim':
     resposta += 50
     proxima()
 
@@ -129,10 +129,10 @@ else:
 print('\n[8] Acredita que homens e mulheres negras têm uma performance sexual elevada em relação aos demais?')
 p8 = input('>>>>>>>>>> Digite sua resposta:  ')
 
-if p8 == 'nao':
+if p8.lower() == 'nao':
     proxima()
 
-elif p8 == 'sim':
+elif p8.lower() == 'sim':
     resposta += 50
     proxima()
 
@@ -142,10 +142,10 @@ else:
 print('\n[9] Espera que negros/negras te eduquem sobre o racismo?')
 p9 = input('>>>>>>>>>> Digite sua resposta:  ')
 
-if p9 == 'nao':
+if p9.lower() == 'nao':
     proxima()
 
-elif p9 == 'sim':
+elif p9.lower() == 'sim':
     resposta += 30
     proxima()
 
@@ -155,10 +155,10 @@ else:
 print('\n[10] Concorda com a frase “Agora tudo é racismo”?')
 p10 = input('>>>>>>>>>> Digite sua resposta:  ')
 
-if p10 == 'nao':
+if p10.lower() == 'nao':
     resposta += 0
 
-elif p10 == 'sim':
+elif p10.lower() == 'sim':
     resposta += 50
 
 else:
